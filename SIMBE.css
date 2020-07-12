@@ -1,0 +1,255 @@
+body {
+  margin: 0 250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* top navigation bar stuff */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}
+
+.topnav a {
+  float: right;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav img {
+  position: relative;
+  width: 15%;
+  top: -6px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: grey;
+}
+.button-top {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button-login {
+  background-color: cyan;
+}
+.button-signup {
+  background-color: pink;
+}
+/* background image stuff  */
+.button-css {
+  /*   background-color: transparent; */
+  border: none;
+  color: black;
+  padding: 25px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.meme-back {
+  background-color: #363940;
+  background-postion: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  possition: relative;
+  height: 500px;
+}
+.meme-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* bottom page stuff */
+/* #bottom-footer {
+  height: 10rem;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+} */
+.bottom-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 20px;
+}
+.button-follow {
+  background-color: cyan;
+  border: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 10px 50px;
+}
+.button-fb {
+  background-color: blue;
+  border: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 10px 50px;
+}
+.end-footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 50px;
+}
+.bottom-grid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fcfcfc;
+  border: 1px lightgray solid;
+}
+
+.projects {
+  flex: 1;
+}
+.dead-l {
+  flex: 1;
+}
+.tweets {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.third-a {
+  flex: 1;
+}
+.third-b {
+  flex: 1;
+}
+.third-c {
+  flex: 1;
+}
+
+.four-boxes {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.box-color:hover {
+  background-color: lightgray;
+  border-radius: 20px;
+  /*   border: 1px solid transparent; */
+}
+.box1 {
+  flex: 1;
+}
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+.box4 {
+  flex: 1;
+}
+.simpbody {
+  text-align: center;
+  top: -5rem;
+  margin-bottom: 8rem;
+}
+.boxes-css {
+  /*   background-color: transparent; */
+  height: 175px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* .memeimg {
+  background-image: url("https://static.thenounproject.com/png/105260-200.png");
+} */
+.ta-icon {
+  background-image: url("https://www.nicepng.com/png/full/129-1290978_teacher-teacher-icon-png.png");
+}
+.team-icon {
+  background-image: url("https://img2.pngio.com/agreement-cooperation-group-joining-people-support-teamwork-icon-teamwork-logos-png-436_512.png");
+}
+.degree-icon,
+.memeimg {
+  background-image: url("https://webstockreview.net/images/diploma-clipart-icon-15.png");
+}
+div .center-img {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+footer {
+  text-align: center;
+}
+#video-overlap {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -218px;
+}
+.laptop {
+  width: 950px;
+  height: 616px;
+}
+.image-overlay {
+  position: relative;
+  top: -195px;
+}
+.video-property {
+  position: absolute;
+  top: -100px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: auto;
+}
+.big-big-text {
+  font-size: 3rem;
+}
+.big-text {
+  font-size: 1.5rem;
+}
+.fit-under {
+  margin: 0 100px;
+}
+.blog-date {
+  text-align: left;
+  psotion: absolute;
+  margin-top: -20px;
+}
+span {
+  font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .four-boxes {column-span: 2;}
+}
